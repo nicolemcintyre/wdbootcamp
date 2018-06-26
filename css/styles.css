@@ -1,0 +1,104 @@
+/* Background Photos by Manny Pantoja (@mann_pantoja) and 
+Fré Sonneveld @fresonneveld on Unsplash */
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #253658;
+    color: #fff;
+    font-family: 'Raleway',"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background: url("../img/bg.jpg") no-repeat;
+    background-size: cover;
+    background-position: center 55%;
+    height: 400px;
+    margin-top: -25px;
+    padding-top: 15px;
+    text-align: center;
+    position: relative;
+
+}
+
+.intro {
+    width: 75%;
+    border: 3px solid white;
+    margin: 30px auto 10px;
+    background-color: rgba(0, 0, 0, .4);
+    height: 200px;
+    font-weight: bold;
+    padding-top: 2%;
+    teext-shadow: -2px 4px 1px #333;
+
+}
+
+.intro h3 {
+    font-family: 'Marck Script', cursive;
+    letter-spacing: 2px;
+}
+
+header a.btn {
+    display: inline-block;
+    position: absolute;
+    height: 40px;
+    text-decoration: none;
+    color: #fefefe;
+    font-weight: normal;
+    background-color: #222;
+    border: 3px solid white;
+    top: 220px;
+    left: 33%;
+    line-height: 1.5;
+    padding: 5px 10px;
+    transition: all 0.5s ease;
+    
+
+}
+
+header a.btn:hover {
+    background-color: #ffa601;
+    color: #222;
+
+}
+
+.main {
+    background-color: #fff;
+    color: #333;
+    padding: 20px;
+}
+
+.testimonial {
+    background: url("../img/footer.jpg") no-repeat center bottom;
+    background-size: cover;
+    text-shadow: 2px 1px 1px #333;
+    height: 200px;
+    padding-top: 50px;
+}
+blockquote cite {
+    padding-left: 65px;
+}
+
+.banner {
+    background-color: #ffa601;
+    width: 100%;
+    padding: 0px;
+    height: 80px;
+}
+
+
+
+footer {
+    padding: 0px 20px;
+    text-align: center;
+}
+
+.social-links {
+    display: inline-flex;
+}
